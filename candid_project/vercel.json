@@ -1,0 +1,7 @@
+{
+  "outputDirectory": "candid_project/candid_project",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/www.joincandidhealth.com/$1" },
+    { "source": "/", "destination": "/www.joincandidhealth.com/index.html" }
+  ]
+} 
