@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "outputDirectory": "candid_project",
+  "trailingSlash": true,
+  "cleanUrls": true,
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/", "dest": "/www.joincandidhealth.com/index.html" },
+    { "src": "/(.*)", "dest": "/www.joincandidhealth.com/$1", "continue": true },
+    { "src": "/cdn.prod.website-files.com/(.*)", "dest": "/cdn.prod.website-files.com/$1" },
+    { "src": "/d3e54v103j8qbb.cloudfront.net/(.*)", "dest": "/d3e54v103j8qbb.cloudfront.net/$1" },
+    { "src": "/cdnjs.cloudflare.com/(.*)", "dest": "/cdnjs.cloudflare.com/$1" }
+  ]
+} 
